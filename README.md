@@ -1,5 +1,18 @@
 # Test B : Application
 
+### Deploy
+
+-   git clone
+-   composer install
+-   npm install
+-   php artisan migration
+-   php artisan db:seed
+-   php artisan serve
+
+<hr>
+
+### Requirement
+
 1. Use migration to create table
 2. ORM relationship
 3. Setup layout and authentication with laravel breeze
