@@ -2,10 +2,14 @@
 
 ### Deploy
 
+-   Laravel 10 : PHP8.1 NPM 8.18
 -   git clone
 -   composer install
 -   npm install
--   php artisan migration
+-   npm run build
+-   cp .env.example .env => update db connect
+-   php artisan key:gen
+-   php artisan migrate
 -   php artisan db:seed
 -   php artisan serve
 
@@ -29,6 +33,8 @@ POST /api/login
     "password": "password"
 }
 ```
+
+> Use Bearer Token from response to make other API
 
 ## List, search store with pagination
 
