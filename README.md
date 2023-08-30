@@ -97,16 +97,17 @@ POST /api/product
 }
 ```
 
-## Update store
+## Update product
 
 PUT /api/product/:id
 
 ```json
 {
-    "user_id": "2",
-    "name": "Store_HCM",
-    "address": "D.10 HCM",
-    "province": "10"
+    "store_id": "2",
+    "name": "Phone",
+    "price": "100000",
+    "amount": "2",
+    "description": "Phone 2023"
 }
 ```
 
